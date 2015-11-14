@@ -6,7 +6,7 @@ This repository contains two script codes written in bash that can be used in ou
 
 I uploaded the codes in txt format so that the content can be copied and pasted into your roaming profile.
 
-The first code named <code>all.txt</code> includes all common commands SSL CS specialists are using to check a domain. In the output you will see DNS records, redirection rules if any, availability of ports and ciphers used by the server (special thanks to Anton Ku. for his article about nmap), SSL handshake process and openssl checks with SNI argument.
+The first code named <code>all.txt</code> includes all common commands SSL CS specialists are using to check a domain. In the output you will see some general info about DNS records and server, redirection rules if any, availability of ports and ciphers used by the server (special thanks to Anton Ku. for his article about nmap), SSL handshake process and openssl checks with SNI argument.
 
 The second one <code>host.txt</code> simply performs reversed IP resolution and identifies a name of server which hosts a requested domain.
 
