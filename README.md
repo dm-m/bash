@@ -13,6 +13,7 @@ The second one <code>host.txt</code> simply performs reversed IP resolution and 
 In order to make them work on your machine, please run <code>nano filename.sh</code> command in the terminal. <code>.sh</code> is a mandatory extension. You can select any name for your file replacing "filename". This command will start a text editor. Copy the code from txt file and paste it into the terminal. Once it is done, click Ctrl+O that saves changes, confirm the filename typing "Y" or change it and Ctrl+X that exits Nano editor.
 
 After that the file must be marked as executable. This can be done with quick chmod. 
+
 Type <code>chmod u+x filename.sh</code> in PuTTY. The script can be run now with ./ syntax, for instance <code>./all.sh</code>.
 
 You can also configure an alias for it, if you wish to run the code with one word. Open the configuration file of your PuTTY with <code>nano .bash_profile</code> command. Type, for example <code>alias all="./all.sh"</code>. Exit with Ctrl+O and Ctrl+X. This will create a permanent alias for <code>./all.sh</code> command which can be initiated with simple <code>all</code> word. 
