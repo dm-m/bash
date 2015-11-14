@@ -1,0 +1,6 @@
+#!/bin/bash
+echo -e "Please enter the domain:"
+read
+ip=$(dig +noall +answer $REPLY |awk '{print $NF}'); echo $ip
+host $ip
+exit 0
