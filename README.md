@@ -1,6 +1,8 @@
 # bash
 
-Hello guys! This repository contains two script codes written in bash that can be used in our daily work. Should anyone happen to like or trust command line more than online tools or just to double-triple-check, this will help you to avoid typing different requests in PuTTY making alltogether in two clicks.
+Hello guys! 
+
+This repository contains two script codes written in bash that can be used in our daily work. Should anyone happen to like or trust command line more than online tools or just to double-triple-check, this will help you to avoid typing different requests in PuTTY making alltogether in two clicks.
 
 I uploaded the codes in txt format so that the content can be copied and pasted into your roaming profile.
 
