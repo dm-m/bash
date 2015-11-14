@@ -14,6 +14,6 @@ In order to make them work on your machine, please run <code>nano filename.sh</c
 
 After that the file must be marked as executable. This can be done with quick chmod. Type <code>chmod u+x filename.sh</code> in PuTTY. The script can be run now with ./ syntax, for instance <code>./all.sh</code>.
 
-You can also configure an alias for it, if you wish to run the code with one word. Open the configuration file of your PuTTY with <code>nano .bash_profile</code> command. Type, for example <code>alias all="./all.sh"</code>. Exit with Ctrl+O and Ctrl+X. This will create a permanent alias for <code>./all.sh</code> command which can be initiated with simple <code>all</code> word. Then type <code>source ~/.bash_profile</code> command. It will reload the shell and allow running newly created alias without restarting terminal a session.
+You can also configure an alias for it, if you wish to run the code with one word. Open the configuration file of your PuTTY with <code>nano .bash_profile</code> command. Type, for example <code>alias all="./all.sh"</code>. Exit with Ctrl+O and Ctrl+X. This will create a permanent alias for <code>./all.sh</code> command which can be initiated with simple <code>all</code> word. Then type <code>source ~/.bash_profile</code> command. It will reload the shell and allow running newly created alias without restarting a terminal session.
 
 That's it! Feel free to use and modify it soever.
