@@ -25,3 +25,5 @@ timeout 5 openssl s_client -showcerts -connect $REPLY:443 -status
 
 printf "\e[%sm%s\e[00m\n" 93 SERVERNAMEINDICATION:
 timeout 5 openssl s_client -showcerts -connect $REPLY:443 -servername $REPLY
+
+exit 0
