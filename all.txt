@@ -21,7 +21,7 @@ printf "\e[%sm%s\e[00m\n" 93 SSLHANDSHAKE:
 curl -vI https://$REPLY
 
 printf "\e[%sm%s\e[00m\n" 93 CERTIFICATES:
-openssl s_client -showcerts -connect $REPLY:443 -status
+timeout 5 openssl s_client -showcerts -connect $REPLY:443 -status
 
 printf "\e[%sm%s\e[00m\n" 93 SERVERNAMEINDICATION:
-openssl s_client -showcerts -connect $REPLY:443 -servername $REPLY
+timeout 5 openssl s_client -showcerts -connect $REPLY:443 -servername $REPLY
