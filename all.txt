@@ -9,7 +9,7 @@ dig any $REPLY
 curl -I $REPLY -insecure
 
 printf "\e[%sm%s\e[00m\n" 93 REDIRECTS:
-wget -SO NILL $REPLY
+wget $REPLY --spider
 
 printf "\e[%sm%s\e[00m\n" 93 PORTS:
 nmap -p80,443 -Pn $REPLY -reason
